@@ -34,6 +34,7 @@ class TrashCanDataset(CocoDataset):
                'trash_bag', 'trash_snack_wrapper', 'trash_can', 'trash_cup', 'trash_container', 'trash_unknown_instance',
                'trash_branch', 'trash_wreckage', 'trash_tarp', 'trash_rope', 'trash_net')
 
+@DATASETS.register_module()
 class TrashCanMaterialDataset(CocoDataset):
 
     CLASSES = ('animal_crab', 'animal_eel', 'animal_etc', 'animal_fish', 'animal_shells', 'animal_starfish',
